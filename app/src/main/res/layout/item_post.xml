@@ -3,7 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <!-- Define data variables here if needed -->
+
+            <variable
+                name="viewModel"
+                type="com.example.asssessmentkotlin.PostViewModel" />
+
     </data>
 
     <androidx.cardview.widget.CardView
@@ -24,6 +28,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Title"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <TextView
@@ -31,6 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textColor="@color/black"
                 android:hint="Description" />
 
         </LinearLayout>
